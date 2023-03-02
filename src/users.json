@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "user": "Elon Reeve Musk",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/4427/4427372.png"
+  },
+  {
+    "id": 2,
+    "user": "Bill Gates",
+    "tweets": 1000,
+    "followers": 120000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/4427/4427398.png"
+  },
+  {
+    "id": 3,
+    "user": "Mark Zuckerberg",
+    "tweets": 500,
+    "followers": 90000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1090/1090806.png"
+  },
+  {
+    "id": 4,
+    "user": "Sundar Pichai",
+    "tweets": 300,
+    "followers": 75000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2566/2566162.png"
+  },
+  {
+    "id": 5,
+    "user": "Tim Cook",
+    "tweets": 400,
+    "followers": 80000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/6705/6705526.png"
+  },
+  {
+    "id": 6,
+    "user": "Marissa Mayer",
+    "tweets": 200,
+    "followers": 50000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3048/3048116.png"
+  },
+  {
+    "id": 7,
+    "user": "Sheryl Sandberg",
+    "tweets": 250,
+    "followers": 55000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2566/2566172.png"
+  },
+  {
+    "id": 8,
+    "user": "Susan Wojcicki",
+    "tweets": 150,
+    "followers": 45000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/6705/6705551.png"
+  },
+  {
+    "id": 9,
+    "user": "Angela Ahrendts",
+    "tweets": 100,
+    "followers": 40000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2566/2566152.png"
+  },
+  {
+    "id": 10,
+    "user": "Ginni Rometty",
+    "tweets": 50,
+    "followers": 30000,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/6889/6889359.png"
+  }
+]
