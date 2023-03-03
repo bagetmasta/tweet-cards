@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import {
   Item,
   Avatar,
@@ -7,7 +7,7 @@ import {
   ElementsBox,
   FollowButton,
   FollowingButton,
-  Span,
+  Line,
 } from './Card.styled';
 
 export const Card = ({ id, tweets, followers, avatar }) => {
@@ -40,9 +40,14 @@ export const Card = ({ id, tweets, followers, avatar }) => {
           </FollowingButton>
         )}
       </ElementsBox>
-      <Span></Span>
+      <Line></Line>
     </Item>
   );
 };
 
-// PropTypes
+Card.propTypes = {
+  id: PropTypes.number.isRequired,
+  tweets: PropTypes.number.isRequired,
+  followers: PropTypes.number.isRequired,
+  avatar: PropTypes.string.isRequired,
+};

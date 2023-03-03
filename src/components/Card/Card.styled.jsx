@@ -106,7 +106,7 @@ export const FollowingButton = styled(Button)`
   background: #5cd3a8;
 `;
 
-export const Span = styled.span`
+export const Line = styled.span`
   position: absolute;
   top: 50%;
   background: #ebd8ff;
