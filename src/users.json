@@ -3,14 +3,14 @@
     "id": 1,
     "user": "Elon Reeve Musk",
     "tweets": 777,
-    "followers": 100500,
+    "followers": 10500,
     "avatar": "https://cdn-icons-png.flaticon.com/512/4427/4427372.png"
   },
   {
     "id": 2,
     "user": "Bill Gates",
-    "tweets": 1000,
-    "followers": 120000,
+    "tweets": 900,
+    "followers": 12000,
     "avatar": "https://cdn-icons-png.flaticon.com/512/4427/4427398.png"
   },
   {
@@ -25,7 +25,7 @@
     "user": "Sundar Pichai",
     "tweets": 300,
     "followers": 75000,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/2566/2566162.png"
+    "avatar": "https://cdn-icons-png.flaticon.com/512/4202/4202835.png"
   },
   {
     "id": 5,
@@ -46,7 +46,7 @@
     "user": "Sheryl Sandberg",
     "tweets": 250,
     "followers": 55000,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/2566/2566172.png"
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3976/3976688.png"
   },
   {
     "id": 8,
@@ -60,12 +60,12 @@
     "user": "Angela Ahrendts",
     "tweets": 100,
     "followers": 40000,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/2566/2566152.png"
+    "avatar": "https://cdn-icons-png.flaticon.com/512/6889/6889367.png"
   },
   {
     "id": 10,
     "user": "Ginni Rometty",
-    "tweets": 50,
+    "tweets": 550,
     "followers": 30000,
     "avatar": "https://cdn-icons-png.flaticon.com/512/6889/6889359.png"
   }

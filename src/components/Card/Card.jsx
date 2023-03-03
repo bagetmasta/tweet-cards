@@ -7,6 +7,7 @@ import {
   ElementsBox,
   FollowButton,
   FollowingButton,
+  Span,
 } from './Card.styled';
 
 export const Card = ({ id, tweets, followers, avatar }) => {
@@ -39,6 +40,7 @@ export const Card = ({ id, tweets, followers, avatar }) => {
           </FollowingButton>
         )}
       </ElementsBox>
+      <Span></Span>
     </Item>
   );
 };

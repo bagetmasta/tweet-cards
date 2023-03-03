@@ -1,52 +1,39 @@
 import styled from 'styled-components';
+import logo from '../../images/logo.png';
+import picture from '../../images/picture.png';
 
 export const Item = styled.li`
   position: relative;
-  flex-basis: calc((100% - 2 * 50px) / 3);
   margin: 15px;
   height: 460px;
 
-  // background-color: #471ca9;
-  // background-image: url('https://cdn-icons-png.flaticon.com/512/361/361678.png');
-  // background-size: 80px, cover;
-  // background-repeat: no-repeat;
-  // background-position: top 120px right 130px;
-
-  // background: linear-gradient(
-  //   114.99deg,
-  //   #471ca9 -0.99%,
-  //   #5736a3 54.28%,
-  //   #4b2a99 78.99%
-  // );
-
-  // background-image: linear-gradient(
-  //     114.99deg,
-  //     #471ca9 -0.99%,
-  //     #5736a3 54.28%,
-  //     #4b2a99 78.99%
-  //   ),
-  //   url('https://cdn-icons-png.flaticon.com/512/361/361678.png');
-  // background-repeat: no-repeat;
-  // background-position: top 20px left 20px;
-  // background-size: 80px, auto;
-
-  background: url('../../images/picture.jpg') no-repeat top 20px left 20px,
+  background: url(${logo}) no-repeat top 20px left 20px,
+    url(${picture}) no-repeat top 29px left 50%,
     linear-gradient(114.99deg, #471ca9 -0.99%, #5736a3 54.28%, #4b2a99 78.99%);
-
-  background-size: 80px, auto;
-  // background-repeat: no-repeat;
-  // background-position: top 12px right 13px;
 
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
+
+  @media (min-width: 600px) {
+    flex-basis: calc((100% - 2 * 50px) / 2);
+  }
+
+  @media (min-width: 1024px) {
+    flex-basis: calc((100% - 2 * 50px) / 3);
+  }
 `;
 
 export const PeopleListContainer = styled.ul`
   font-family: 'Montserrat';
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
-  padding: 15px;
+
+  @media (min-width: 600px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 600px) and (max-width: 1023.98px) {
+    justify-content: center;
+  }
 `;
 
 export const Avatar = styled.img`
@@ -54,6 +41,17 @@ export const Avatar = styled.img`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  border: 8px solid #ebd8ff;
+  border-radius: 50%;
+  padding: 2px;
+  z-index: 10;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
 `;
 
 export const TextComponent = styled.p`
@@ -73,6 +71,18 @@ export const ElementsBox = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  @media (max-width: 431px) {
+    bottom: 20px;
+  }
+
+  @media (min-width: 600px) and (max-width: 901px) {
+    bottom: 26px;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1339.98px) {
+    bottom: 23px;
+  }
 `;
 
 export const Button = styled.button`
@@ -94,4 +104,14 @@ export const FollowButton = styled(Button)`
 
 export const FollowingButton = styled(Button)`
   background: #5cd3a8;
+`;
+
+export const Span = styled.span`
+  position: absolute;
+  top: 50%;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+  width: 100%;
+  height: 8px;
 `;
