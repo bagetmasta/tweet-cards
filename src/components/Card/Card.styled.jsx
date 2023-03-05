@@ -41,6 +41,7 @@ export const Avatar = styled.img`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 62px;
 
   border: 8px solid #ebd8ff;
   border-radius: 50%;

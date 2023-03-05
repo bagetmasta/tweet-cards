@@ -26,7 +26,7 @@ export const Card = ({ id, tweets, followers, avatar }) => {
 
   return (
     <Item>
-      <Avatar src={avatar} alt="User avatar" width="62" />
+      <Avatar src={avatar} alt="User avatar" />
       <ElementsBox>
         <TextComponent>{tweets} TWEETS</TextComponent>
         <TextComponent>{formattedFollowers} FOLLOWERS</TextComponent>
