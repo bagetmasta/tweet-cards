@@ -96,14 +96,24 @@ export const Button = styled.button`
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border-radius: 10.3108px;
   cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
 export const FollowButton = styled(Button)`
   background: #ebd8ff;
+  &:hover {
+    background-color: #d5b6ff;
+  }
 `;
 
 export const FollowingButton = styled(Button)`
   background: #5cd3a8;
+  &:hover {
+    background-color: #4bbd8d;
+  }
 `;
 
 export const Line = styled.span`
