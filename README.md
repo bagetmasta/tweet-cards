@@ -27,19 +27,19 @@
 его имени, убедись что репозиторий публичный, после чего нажми кнопку
 `«Create repository from template»`.
 
-![Creating repo from a template step 2](./src/images/readme/assets/template-step-2.png)
+![Creating repo from a template step 2](./src/images/readme/template-step-2.png)
 
 После того как репозиторий будет создан, необходимо перейти в настройки
 созданного репозитория на вкладку `Settings` > `Actions` > `General` как
 показано на изображении.
 
-![Settings GitHub Actions permissions step 1](./src/images/readme/assets/gh-actions-perm-1.png)
+![Settings GitHub Actions permissions step 1](./src/images/readme/gh-actions-perm-1.png)
 
 Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
 опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
 необходимо для автоматизации процесса деплоя проекта.
 
-![Settings GitHub Actions permissions step 2](./src/images/readme/assets/gh-actions-perm-2.png)
+![Settings GitHub Actions permissions step 2](./src/images/readme/gh-actions-perm-2.png)
 
 Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
 репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
@@ -72,7 +72,7 @@ GitHub.
 выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
 это небыло сделано автоматически.
 
-![GitHub Pages settings](./src/images/readme/assets/repo-settings.png)
+![GitHub Pages settings](./src/images/readme/repo-settings.png)
 
 ### Статус деплоя
 
@@ -85,7 +85,7 @@ GitHub.
 Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
 выпадающем окне перейти по ссылке `Details`.
 
-![Deployment status](./src/images/readme/assets/deploy-status.png)
+![Deployment status](./src/images/readme/deploy-status.png)
 
 ### Живая страница
 
@@ -112,7 +112,7 @@ GitHub.
 
 ## Как это работает
 
-![How it works](./src/images/readme/assets/how-it-works.png)
+![How it works](./src/images/readme/how-it-works.png)
 
 1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
    скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
