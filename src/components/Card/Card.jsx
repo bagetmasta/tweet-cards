@@ -7,7 +7,6 @@ import {
   ElementsBox,
   FollowButton,
   FollowingButton,
-  Line,
 } from './Card.styled';
 
 export const Card = ({ id, tweets, followers, avatar }) => {
@@ -40,7 +39,6 @@ export const Card = ({ id, tweets, followers, avatar }) => {
           </FollowingButton>
         )}
       </ElementsBox>
-      <Line></Line>
     </Item>
   );
 };

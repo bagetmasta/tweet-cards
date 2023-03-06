@@ -14,6 +14,18 @@ export const Item = styled.li`
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
 
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    background: #ebd8ff;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+      inset 0px -1.71846px 3.43693px #ae7be3,
+      inset 0px 3.43693px 2.5777px #fbf8ff;
+    width: 100%;
+    height: 8px;
+  }
+
   @media (min-width: 600px) {
     flex-basis: calc((100% - 2 * 50px) / 2);
   }
@@ -115,14 +127,4 @@ export const FollowingButton = styled(Button)`
   &:hover {
     background-color: #4bbd8d;
   }
-`;
-
-export const Line = styled.span`
-  position: absolute;
-  top: 50%;
-  background: #ebd8ff;
-  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
-    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
-  width: 100%;
-  height: 8px;
 `;
